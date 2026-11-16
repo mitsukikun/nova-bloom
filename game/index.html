@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOVA BLOOM — a twin-stick garden defense</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #050510;
+    overflow: hidden;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    display: block;
+    background: #050510;
+    cursor: crosshair;
+    image-rendering: auto;
+  }
+</style>
+</head>
+<body>
+  <canvas id="game" width="1280" height="720"></canvas>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
